@@ -1,0 +1,48 @@
+# Enterprise Trading Bot Requirements - Render Compatible
+# =======================================================
+
+# Core Framework
+fastapi==0.108.0
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Async HTTP
+aiohttp==3.9.1
+
+# Data Analysis & Trading  
+pandas==2.1.4
+numpy==1.25.2
+pyarrow==14.0.1
+
+# Environment & Config
+python-dotenv==1.0.0
+
+# Logging & Monitoring
+structlog==23.2.0
+
+# WebSocket
+websockets==12.0
+
+# Timezone
+pytz==2023.3
+
+# Crypto & Security (for API signatures)
+cryptography==41.0.7
+
+# Performance & Caching
+cachetools==5.3.2
+aiolimiter==1.1.0
+backoff==2.2.1
+fastapi-cache2==0.2.1
+
+# Trading Libraries
+ccxt==4.1.77
+
+# Development & Testing (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Build compatibility
+setuptools==68.2.2
+wheel==0.42.0
